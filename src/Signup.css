@@ -1,0 +1,124 @@
+.Signup{
+    background-color: rgb(219, 204, 204);
+    height: 100vh;
+}
+.Header{
+   background-color: rgb(35, 47, 88);
+   color: white;
+   border: 1px solid black;
+   height: 60px;
+   font-size: 25px;
+   
+}
+.Header > *{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.Header > p > span{
+    color: red;
+}
+
+.Box{
+    background-color: rgb(233, 231, 231);
+    border: 1px solid black;
+    height: 60vh;
+    width: 20%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.Box > h1{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.Box > p{
+   
+    height: 30px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+.Box > hr{
+   width: 90%;
+   position: relative;
+    top: -20px;
+}
+
+.icon_container{
+  
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+    top: 40px;
+    left: 15px;
+    outline: 0;
+    align-items: center;
+}
+
+.icon_container > input{
+    width: 90%;
+    height: 30px;  
+}
+
+#icon{
+    position: relative;
+    top: 2px;
+    right: 30px;
+}
+
+#fn{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+#fn > input{
+    width: 40%;
+    height: 30px;
+}
+
+#email{
+    width: 90%;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    left: 12px;
+}
+
+
+
+
+
+
+
+.Box > Button{
+    background-color: green;
+    color:white ;
+    position: relative;
+    top: 50px;
+    left: 190px;
+    padding: 10px 20px;
+}
+
+
+
+
+
+.forgot{
+    padding-top: 10px;
+}
+
+.forgot > input{
+    margin: auto;
+    margin-left: 630px;
+}
+.forgot > p > a{
+    color: blue;
+}
+.forgot > a{
+    margin: auto;
+    margin-left: 700px;
+    color: blue;
+}

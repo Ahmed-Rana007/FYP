@@ -1,0 +1,75 @@
+.Login{
+    background-color: rgb(219, 204, 204);
+    height: 100vh;
+}
+.Header{
+   background-color: rgb(35, 47, 88);
+   color: white;
+   border: 1px solid black;
+   height: 60px;
+   font-size: 25px;
+   
+}
+.Header > *{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.Header > p > span{
+    color: red;
+}
+
+.Box_sec{
+    background-color: rgb(233, 231, 231);
+    border: 1px solid black;
+    height: 40vh;
+    width: 20%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.Box_sec > h1{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.icon_container{
+  display: flex;
+  width: 80%;
+  margin-bottom: 15px;
+  position: relative;
+    top: 50px;
+    left: 50px;
+    outline: 0;
+    align-items: center;
+}
+
+.input_login{
+    width: 70%;
+    height: 30px;  
+}
+
+.Box_sec > Button{
+    background-color: green;
+    color:white ;
+    position: relative;
+    top: 50px;
+    left: 170px;
+    padding: 10px 20px;
+}
+
+.forgot > p{
+    margin: auto;
+    margin-left: 650px;
+}
+.forgot > p > a{
+    color: blue;
+}
+.forgot > a{
+    margin: auto;
+    margin-left: 700px;
+    color: blue;
+}
